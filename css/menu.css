@@ -1,0 +1,189 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a:visited,
+a:hover,
+a:link,
+a:active {
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+}
+
+#menu {
+    width: 960px;
+    height: 965px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+#menu .menu_logo {
+    position: absolute;
+    left: 60px;
+    top: 60px;
+}
+
+#menu .reset {
+    position: absolute;
+    right: 50px;
+    top: 40px;
+}
+
+#menu .login {
+    width: 860px;
+    height: 60px;
+    position: absolute;
+    left: 50px;
+    top: 195px;
+}
+
+#menu .login > input {
+    width: calc(100%/3 - 3px);
+    box-sizing: border-box;
+    padding: 15px 0;
+    border: 2px solid #000;
+    background: rgba(240, 180, 90, 0.2);
+    font-size: 20px;
+}
+
+#menu .login > input:first-child {
+    font-weight: bold;
+    background: rgba(240, 180, 90, 0.4);
+}
+
+#menu .introduction {
+    width: 195px;
+    height: 240px;
+    position: absolute;
+    left: 80px;
+    top: 360px;
+    text-align: center;
+    background: url(../images/menu/menu_img1.jpg) no-repeat top left;
+    box-sizing: border-box;
+    padding-top: 190px;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.49;
+    transition: 0.5s;
+}
+
+#menu .introduction:hover {
+    transform: scale(1.1, 1.1);
+}
+
+#menu .clinic {
+    width: 195px;
+    height: 240px;
+    position: absolute;
+    left: 385px;
+    top: 360px;
+    text-align: center;
+    background: url(../images/menu/menu_img2.jpg) no-repeat top left;
+    box-sizing: border-box;
+    padding-top: 190px;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.49;
+    transition: 0.5s;
+}
+
+#menu .clinic:hover {
+    transform: scale(1.1, 1.1);
+}
+
+#menu .oriental {
+    width: 195px;
+    height: 240px;
+    position: absolute;
+    left: 690px;
+    top: 360px;
+    text-align: center;
+    background: url(../images/menu/menu_img3.jpg) no-repeat top left;
+    box-sizing: border-box;
+    padding-top: 190px;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.49;
+    transition: 0.5s;
+}
+
+#menu .oriental:hover {
+    transform: scale(1.1, 1.1);
+}
+
+#menu .training {
+    width: 195px;
+    height: 270px;
+    position: absolute;
+    left: 80px;
+    top: 650px;
+    text-align: center;
+    background: url(../images/menu/menu_img4.jpg) no-repeat top left;
+    box-sizing: border-box;
+    padding-top: 190px;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.49;
+    transition: 0.5s;
+}
+
+#menu .training:hover {
+    transform: scale(1.1, 1.1);
+}
+
+#menu .nutritional {
+    width: 195px;
+    height: 240px;
+    position: absolute;
+    left: 385px;
+    top: 650px;
+    text-align: center;
+    background: url(../images/menu/menu_img5.jpg) no-repeat top left;
+    box-sizing: border-box;
+    padding-top: 190px;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.49;
+    transition: 0.5s;
+}
+
+#menu .nutritional:hover {
+    transform: scale(1.1, 1.1);
+}
+
+#menu .cs {
+    width: 195px;
+    height: 240px;
+    position: absolute;
+    left: 690px;
+    top: 650px;
+    text-align: center;
+    background: url(../images/menu/menu_img6.jpg) no-repeat top left;
+    box-sizing: border-box;
+    padding-top: 190px;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.49;
+    transition: 0.5s;
+}
+
+#menu .cs:hover {
+    transform: scale(1.1, 1.1);
+}

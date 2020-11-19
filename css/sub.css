@@ -1,0 +1,1688 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a:visited,
+a:hover,
+a:link,
+a:active {
+    text-decoration: none;
+    color: #000;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+legend,
+caption {
+    display: none;
+}
+
+fieldset {
+    border: 0;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+}
+
+/* 헤더 */
+#header {
+    height: 140px;
+    background: #404041;
+}
+
+#header .header_inner {
+    width: 1200px;
+    height: 140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header h1 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#header .gnb {
+    position: absolute;
+    right: 0;
+    top: 55px;
+    text-align: center;
+    z-index: 999;
+}
+
+#header .gnb > li {
+    float: left;
+}
+
+#header .gnb > li > a {
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 80px;
+    text-align: left;
+    transition: color 0.5s;
+    margin-right: 80px;
+}
+
+#header .gnb > li > .gnb_cs {
+    margin-right: 20px;
+}
+
+#header .dp2 > li > a {
+    color: #fff;
+    display: block;
+    transition: color 0.5s;
+    padding: 6px 0px;
+    text-align: left;
+
+}
+
+#header .gnb > li > a:hover {
+    color: #f0a544;
+}
+
+#header .dp2 > li > a:hover {
+    color: #f0a544;
+}
+
+#header .gnb_bg {
+    width: 100%;
+    background: rgba(75, 75, 75, 0.8);
+    height: 270px;
+    position: absolute;
+    left: 0;
+    top: 140px;
+    z-index: 99;
+}
+
+/* 비주얼 */
+#sub_visual1 {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    padding-top: 225px;
+    box-sizing: border-box;
+    background: url(../images/sub1/sub1_img_visual.jpg) no-repeat center center;
+}
+
+#sub_visual1 .tit {
+    line-height: 1.5;
+    color: #efb659;
+    font-size: 30px;
+}
+
+#sub_visual1 .tit span {
+    font-weight: bold;
+    font-family: "NotoSansKR";
+    font-size: 80px;
+    line-height: 1.5;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#sub_visual2 {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    padding-top: 225px;
+    box-sizing: border-box;
+    background: url(../images/sub2/sub2_img_visual.jpg) no-repeat center center;
+}
+
+#sub_visual2 .tit {
+    line-height: 1.5;
+    color: #efb659;
+    font-size: 30px;
+}
+
+#sub_visual2 .tit span {
+    font-weight: bold;
+    font-family: "NotoSansKR";
+    font-size: 80px;
+    line-height: 1.5;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#sub_visual3 {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    padding-top: 225px;
+    box-sizing: border-box;
+    background: url(../images/sub3/sub3_img_visual.jpg) no-repeat center center;
+}
+
+#sub_visual3 .tit {
+    line-height: 1.5;
+    color: #efb659;
+    font-size: 30px;
+}
+
+#sub_visual3 .tit span {
+    font-weight: bold;
+    font-family: "NotoSansKR";
+    font-size: 80px;
+    line-height: 1.5;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#sub_visual4 {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    padding-top: 225px;
+    box-sizing: border-box;
+    background: url(../images/sub4/sub4_img_visual.jpg) no-repeat center center;
+}
+
+#sub_visual4 .tit {
+    line-height: 1.5;
+    color: #efb659;
+    font-size: 30px;
+}
+
+#sub_visual4 .tit span {
+    font-weight: bold;
+    font-family: "NotoSansKR";
+    font-size: 80px;
+    line-height: 1.5;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#sub_visual5 {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    padding-top: 225px;
+    box-sizing: border-box;
+    background: url(../images/sub5/sub5_vis.jpg) no-repeat center center;
+}
+
+#sub_visual5 .tit {
+    line-height: 1.5;
+    color: #efb659;
+    font-size: 30px;
+}
+
+#sub_visual5 .tit span {
+    font-weight: bold;
+    font-family: "NotoSansKR";
+    font-size: 80px;
+    line-height: 1.5;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+}
+
+
+/* snb */
+#snb {
+    width: 100%;
+    height: 110px;
+    background: rgba(200, 185, 158, 0.3);
+}
+
+#snb .snb_inner {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 37px 0;
+}
+
+#snb .snb_inner > li {
+    float: left;
+    width: calc(100%/6);
+    text-align: center;
+}
+
+#snb .snb4_inner {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 37px 0;
+}
+
+#snb .snb4_inner > li {
+    float: left;
+    width: calc(100%/5);
+    text-align: center;
+}
+
+#snb .snb4_inner > li > a {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+#snb .snb4_inner > li > a:hover {
+    font-weight: bold;
+    border-bottom: 7px solid #707070;
+    padding-bottom: 30px;
+}
+
+
+#snb .snb_inner > li > a {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+#snb .snb_inner > li > a:hover {
+    font-weight: bold;
+    border-bottom: 7px solid #707070;
+    padding-bottom: 30px;
+}
+
+#snb .snb_inner li.on {
+    font-weight: bold;
+}
+
+#snb .snb4_inner li.on {
+    font-weight: bold;
+}
+
+
+/* 안내 */
+#info {
+    height: 1070px;
+    background: rgba(85, 86, 119, 0.2);
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+
+#info .info_bg {
+    width: 1200px;
+    height: 870px;
+    margin: 0 auto;
+    background: url(../images/sub1/sub_img_information.jpg) no-repeat center center;
+    box-sizing: border-box;
+    padding: 100px;
+}
+
+#info .info_bg h2 {
+    font-size: 70px;
+    line-height: 1.47;
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+    text-align: center;
+}
+
+#info .info_desc {
+    width: 1000px;
+    height: 490px;
+    background: rgba(65, 65, 65, 0.5);
+    margin-top: 80px;
+    position: relative;
+}
+
+#info .info_time {
+    width: 620px;
+    height: 415px;
+    border: solid 5px #fff;
+    position: absolute;
+    left: 35px;
+    top: 35px;
+    box-shadow: 2px 2px 2px #000;
+    text-align: center;
+    padding-top: 130px;
+    box-sizing: border-box;
+    background: url(../images/sub1/sub1_icon_clock.png) no-repeat center 30px;
+}
+
+#info .info_time h3 {
+    font-size: 42px;
+    line-height: 1.48;
+    color: #faf0dc;
+}
+
+#info .info_time p {
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    padding-top: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#info .info_time .night {
+    color: #faf0dc;
+}
+
+#info .info_call {
+    width: 330px;
+    height: 415px;
+    text-align: center;
+    position: absolute;
+    right: 8px;
+    top: 35px;
+    box-sizing: border-box;
+    padding-top: 165px;
+    background: url(../images/sub1/sub1_icon_telephone.png) no-repeat center 60px;
+}
+
+#info .info_call h3 {
+    font-size: 42px;
+    line-height: 1.48;
+    color: #faf0dc;
+
+}
+
+#info .info_call p {
+    font-size: 38px;
+    font-weight: 600;
+    color: #faf0dc;
+    padding-top: 70px;
+    font-family: "Montserrat";
+}
+
+/* 진료 */
+#treatment {
+    height: 1020px;
+    padding: 100px 0 150px;
+    box-sizing: border-box;
+}
+
+#treatment .treat_contents {
+    width: 1200px;
+    height: 920px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#treatment h2 {
+    font-size: 80px;
+    color: #404041;
+    line-height: 1.49;
+    text-align: center;
+}
+
+#treatment .box1 {
+    width: 380px;
+    height: 380px;
+    background: url(../images/sub1/sub1_img_cure1.png) no-repeat center center;
+    position: absolute;
+    left: 0;
+    top: 380px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 175px;
+    transition: opacity 0.5s;
+}
+
+#treatment .box2 {
+    width: 380px;
+    height: 380px;
+    background: url(../images/sub1/sub1_img_cure2.png) no-repeat center center;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 175px;
+    position: absolute;
+    left: 205px;
+    top: 170px;
+    transition: opacity 0.5s;
+}
+
+#treatment .box3 {
+    width: 380px;
+    height: 380px;
+    background: url(../images/sub1/sub1_img_cure3.png) no-repeat center center;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 175px;
+    position: absolute;
+    left: 410px;
+    top: 380px;
+    transition: opacity 0.5s;
+}
+
+#treatment .box4 {
+    width: 380px;
+    height: 380px;
+    background: url(../images/sub1/sub1_img_cure4.png) no-repeat center center;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 175px;
+    position: absolute;
+    left: 615px;
+    top: 170px;
+    transition: opacity 0.5s;
+}
+
+#treatment .box5 {
+    width: 380px;
+    height: 380px;
+    background: url(../images/sub1/sub1_img_cure5.png) no-repeat center center;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 175px;
+    position: absolute;
+    left: 825px;
+    top: 380px;
+    transition: opacity 0.5s;
+}
+
+#treatment a {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+}
+
+#treatment .box1:hover {
+    opacity: 0.7;
+}
+
+#treatment .box2:hover {
+    opacity: 0.7;
+}
+
+#treatment .box3:hover {
+    opacity: 0.7;
+}
+
+#treatment .box4:hover {
+    opacity: 0.7;
+}
+
+#treatment .box5:hover {
+    opacity: 0.7;
+}
+
+/* 교정센터 */
+#stit {
+    height: 650px;
+    box-sizing: border-box;
+    padding: 115px 0;
+}
+
+#stit .stit_contents {
+    width: 1200px;
+    margin: 0 auto;
+    background: url(../images/sub2/sub2_icon_tit.jpg)no-repeat 90% center;
+}
+
+#stit .stit_contents h2 {
+    font-size: 60px;
+    line-height: 1.48;
+    padding-bottom: 50px;
+}
+
+#stit .stit_contents h4 {
+    font-size: 30px;
+    line-height: 1.5;
+    border-top: 1px solid #000;
+    display: inline-block;
+    padding-top: 40px;
+}
+
+#stit .stit_contents h4 > span {
+    color: #f0a544;
+}
+
+#stit .stit_contents p {
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    padding-top: 30px;
+}
+
+#stit .stit_contents p {
+    background: url(../images/common/sub_txt_import.jpg) no-repeat 196px 48px;
+}
+
+/* 약침치료 */
+#stit {
+    height: 650px;
+    box-sizing: border-box;
+    padding: 115px 0;
+}
+
+#stit .stit_contents2 {
+    width: 1200px;
+    margin: 0 auto;
+    background: url(../images/sub3/sub3_icon_tit.jpg)no-repeat right center;
+}
+
+#stit .stit_contents2 h2 {
+    font-size: 60px;
+    line-height: 1.48;
+    padding-bottom: 50px;
+}
+
+#stit .stit_contents2 h4 {
+    font-size: 30px;
+    line-height: 1.5;
+    border-top: 1px solid #000;
+    display: inline-block;
+    padding-top: 40px;
+}
+
+#stit .stit_contents2 h4 > span {
+    color: #f0a544;
+}
+
+#stit .stit_contents2 p {
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    padding-top: 30px;
+    background: url(../images/common/sub_txt_import.jpg) no-repeat -34px 156px;
+}
+
+/* 영양센터 */
+#stit {
+    height: 650px;
+    box-sizing: border-box;
+    padding: 115px 0;
+}
+
+#stit .stit_contents3 {
+    width: 1200px;
+    margin: 0 auto;
+    background: url(../images/sub4/sub4_icon_tit2.jpg) no-repeat 85% center;
+}
+
+#stit .stit_contents3 h2 {
+    font-size: 60px;
+    line-height: 1.48;
+    padding-bottom: 50px;
+}
+
+#stit .stit_contents3 h4 {
+    font-size: 30px;
+    line-height: 1.5;
+    border-top: 1px solid #000;
+    display: inline-block;
+    padding-top: 40px;
+}
+
+#stit .stit_contents3 h4 > span {
+    color: #f0a544;
+}
+
+#stit .stit_contents3 p {
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    padding-top: 30px;
+    background: url(../images/common/sub4_txt_import.jpg) no-repeat 174px 84px;
+}
+
+/* 카이로프래틱 */
+#chiropractic {
+    height: 760px;
+    background: rgba(85, 86, 119, 0.2);
+    box-sizing: border-box;
+    padding: 100px 0 125px;
+}
+
+#chiropractic h3 {
+    font-size: 50px;
+    line-height: 1.48;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#chiropractic p {
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+#chiropractic .chiro_inner {
+    width: 1420px;
+    height: 270px;
+    margin: 0 auto;
+    background: url(../images/sub2/sub2_img2.jpg) no-repeat left center #fdfaf4;
+    border-radius: 0 100px 0 0;
+}
+
+#chiropractic .chiro_inner ul {
+    padding: 40px 0 40px 782px;
+}
+
+#chiropractic .chiro_inner li {
+    font-size: 20px;
+    line-height: 1.45;
+    letter-spacing: 0.5px;
+    display: block;
+    padding: 5px 0 6px 20px;
+    background: url(../images/common/sub2_li.jpg) no-repeat left center;
+}
+
+
+/* 원리 및 특징 */
+#principle {
+    height: 760px;
+    background: rgba(85, 86, 119, 0.2);
+    box-sizing: border-box;
+    padding: 100px 0 125px;
+}
+
+#principle h3 {
+    font-size: 50px;
+    line-height: 1.48;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#principle p {
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+#principle .principle_inner {
+    width: 1420px;
+    height: 270px;
+    margin: 0 auto;
+    background: url(../images/sub3/sub3_img_stit.jpg) no-repeat left center #fdfaf4;
+    border-radius: 0 100px 0 0;
+}
+
+#principle .principle_inner ul {
+    padding: 40px 0 40px 782px;
+}
+
+#principle .principle_inner li {
+    font-size: 20px;
+    line-height: 1.45;
+    letter-spacing: 0.5px;
+    display: block;
+    padding: 5px 0 6px 20px;
+    background: url(../images/common/sub2_li.jpg) no-repeat left center;
+}
+
+
+/* 장비소개 */
+#equipment {
+    height: 1345px;
+    box-sizing: border-box;
+    padding: 100px 0 150px;
+}
+
+#equipment .txt_eng {
+    text-align: center;
+    font-size: 50px;
+    font-family: Roboto;
+    line-height: 1.22;
+    padding-bottom: 10px;
+}
+
+#equipment .txt_kor {
+    font-size: 50px;
+    line-height: 1.48;
+    border-top: 3px solid #707070;
+    text-align: center;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 55px;
+}
+
+#equipment .equip_contents {
+    width: 1420px;
+    height: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.equip_contents .equip1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 460px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.equip_contents img {
+    transition: all 0.3s;
+}
+
+.equip_contents img:hover {
+    transform: scale(1.07, 1.07);
+}
+
+.equip_contents .equip1 .txt_box {
+    width: 460px;
+    height: 205px;
+    position: absolute;
+    left: 0;
+    top: 250px;
+    background: rgba(65, 65, 65, 0.8);
+    color: #fff;
+    text-align: center;
+}
+
+.equip_contents .equip1 .txt_box h4 {
+    font-size: 30px;
+    line-height: 1.5;
+    padding: 20px 0;
+}
+
+.equip_contents .equip1 .txt_box p {
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.45px;
+}
+
+
+.equip_contents .equip2 {
+    position: absolute;
+    left: 480px;
+    top: 0;
+    width: 460px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.equip_contents .equip2 .txt_box {
+    width: 460px;
+    height: 205px;
+    position: absolute;
+    left: 0;
+    top: 250px;
+    background: rgba(65, 65, 65, 0.8);
+    color: #fff;
+    text-align: center;
+}
+
+.equip_contents .equip2 .txt_box h4 {
+    font-size: 30px;
+    line-height: 1.5;
+    padding: 20px 0;
+}
+
+.equip_contents .equip2 .txt_box p {
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.45px;
+}
+
+.equip_contents .equip3 {
+    position: absolute;
+    left: 960px;
+    top: 0;
+    width: 460px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.equip_contents .equip3 .txt_box {
+    width: 460px;
+    height: 205px;
+    position: absolute;
+    left: 0;
+    top: 250px;
+    background: rgba(65, 65, 65, 0.8);
+    color: #fff;
+    text-align: center;
+}
+
+.equip_contents .equip3 .txt_box h4 {
+    font-size: 30px;
+    line-height: 1.5;
+    padding: 20px 0;
+}
+
+.equip_contents .equip3 .txt_box p {
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.45px;
+}
+
+.equip_contents .equip4 {
+    position: absolute;
+    left: 0;
+    top: 475px;
+    width: 460px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.equip_contents .equip4 .txt_box {
+    width: 460px;
+    height: 205px;
+    position: absolute;
+    left: 0;
+    top: 250px;
+    background: rgba(65, 65, 65, 0.8);
+    color: #fff;
+    text-align: center;
+}
+
+.equip_contents .equip4 .txt_box h4 {
+    font-size: 30px;
+    line-height: 1.5;
+    padding: 20px 0;
+}
+
+.equip_contents .equip4 .txt_box p {
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.45px;
+}
+
+.equip_contents .equip5 {
+    position: absolute;
+    left: 480px;
+    top: 475px;
+    width: 460px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.equip_contents .equip5 .txt_box {
+    width: 460px;
+    height: 205px;
+    position: absolute;
+    left: 0;
+    top: 250px;
+    background: rgba(65, 65, 65, 0.8);
+    color: #fff;
+    text-align: center;
+}
+
+.equip_contents .equip5 .txt_box h4 {
+    font-size: 30px;
+    line-height: 1.5;
+    padding: 20px 0;
+}
+
+.equip_contents .equip5 .txt_box p {
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.45px;
+}
+
+.equip_contents .equip6 {
+    position: absolute;
+    left: 960px;
+    top: 475px;
+    width: 460px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.equip_contents .equip6 .txt_box {
+    width: 460px;
+    height: 205px;
+    position: absolute;
+    left: 0;
+    top: 250px;
+    background: rgba(65, 65, 65, 0.8);
+    color: #fff;
+    text-align: center;
+}
+
+.equip_contents .equip6 .txt_box h4 {
+    font-size: 30px;
+    line-height: 1.5;
+    padding: 20px 0;
+}
+
+.equip_contents .equip6 .txt_box p {
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.45px;
+}
+
+
+/* 약침 */
+#herbal {
+    height: 1380px;
+    box-sizing: border-box;
+    padding: 150px 0;
+}
+
+#herbal .herbal_contents {
+    width: 1420px;
+    height: 1080px;
+    margin: 0px auto;
+}
+
+.herbal_contents .report {
+    width: 1420px;
+    height: 360px;
+    background: url(../images/sub3/sub3_img_niddle1.jpg) no-repeat right center;
+}
+
+.herbal_contents .report_txt {
+    width: 710px;
+    height: 360px;
+    text-align: center;
+}
+
+.herbal_contents .report_txt h4 {
+    font-size: 40px;
+    line-height: 1.48;
+    padding: 60px 0 25px;
+}
+
+.herbal_contents .report_txt p {
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    background: url(../images/common/sub_txt_import.jpg) no-repeat 125px 125px;
+}
+
+.herbal_contents .effect {
+    width: 1420px;
+    height: 360px;
+    background: url(../images/sub3/sub3_img_niddle2.jpg) no-repeat left center;
+    position: relative;
+}
+
+.herbal_contents .effect_txt {
+    width: 710px;
+    height: 360px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.herbal_contents .effect_txt h4 {
+    font-size: 40px;
+    line-height: 1.48;
+    padding: 60px 0 25px;
+}
+
+.herbal_contents .effect_txt p {
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    background: url(../images/common/sub_txt_import.jpg) no-repeat 340px 90px;
+
+}
+
+.herbal_contents .disinfection {
+    width: 1420px;
+    height: 360px;
+    background: url(../images/sub3/sub3_img_niddle3.jpg) no-repeat right center;
+}
+
+.herbal_contents .disinfection_txt {
+    width: 710px;
+    height: 360px;
+    text-align: center;
+}
+
+.herbal_contents .disinfection_txt h4 {
+    font-size: 40px;
+    line-height: 1.48;
+    padding: 60px 0 25px;
+}
+
+.herbal_contents .disinfection_txt p {
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    background: url(../images/common/sub_txt_import.jpg) no-repeat 135px 127px;
+}
+
+
+/* 조리과정 */
+#cooking {
+    height: 760px;
+    background: rgba(85, 86, 119, 0.2);
+    box-sizing: border-box;
+    padding: 100px 0;
+}
+
+#cooking h3 {
+    text-align: center;
+    font-size: 50px;
+    line-height: 1.48;
+    padding-bottom: 50px;
+}
+
+#cooking .video {
+    width: 1000px;
+    height: 440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#cooking .video .play {
+    position: absolute;
+    left: 450px;
+    top: 170px;
+    border-radius: 15px;
+    transition: background 0.5s;
+}
+
+#cooking .video .play:hover {
+    background: rgba(0, 0, 0, 1);
+}
+
+
+/* 식이안내 */
+#guide {
+    width: 1420px;
+    height: 1380px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+#guide h4 {
+    font-size: 40px;
+    line-height: 1.48;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#guide::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#guide .supply {
+    width: 680px;
+    height: 1080px;
+    float: left;
+    position: relative;
+    background: url(../images/sub4/icon_supply.png) no-repeat 315px 430px;
+    margin-right: 60px;
+}
+
+#guide .supply1 {
+    width: 680px;
+    height: 250px;
+    position: absolute;
+    top: 160px;
+}
+
+#guide .supply1 .txt {
+    background: rgba(65, 65, 65, 0.8);
+    width: 680px;
+    height: 70px;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 10px 0;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+    position: absolute;
+    top: 180px;
+}
+
+#guide .supply2 {
+    width: 680px;
+    height: 250px;
+    position: absolute;
+    top: 495px;
+}
+
+#guide .supply2 .txt {
+    background: rgba(65, 65, 65, 0.8);
+    width: 680px;
+    height: 70px;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 10px 0;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+    position: absolute;
+    top: 180px;
+}
+
+#guide .supply3 {
+    width: 680px;
+    height: 250px;
+    position: absolute;
+    top: 830px;
+}
+
+#guide .supply3 .txt {
+    background: rgba(65, 65, 65, 0.8);
+    width: 680px;
+    height: 70px;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 10px 0;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+    position: absolute;
+    top: 180px;
+}
+
+#guide .program {
+    width: 680px;
+    height: 1080px;
+    float: left;
+    position: relative;
+}
+
+#guide .program .menu1 {
+    width: 340px;
+    height: 230px;
+    position: absolute;
+    left: 0;
+    top: 160px;
+}
+
+#guide .program .menu1:hover .menu_hover1 {
+    display: block;
+}
+
+#guide .program .menu1 img {
+    display: block;
+}
+
+#guide .program .menu_hover1 {
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    line-height: 1.6;
+    display: none;
+}
+
+#guide .program span {
+    font-weight: bold;
+}
+
+
+#guide .program .menu2 {
+    width: 340px;
+    height: 230px;
+    position: absolute;
+    left: 340px;
+    top: 160px;
+}
+
+#guide .program .menu2:hover .menu_hover2 {
+    display: block;
+}
+
+#guide .program .menu2 img {
+    display: block;
+}
+
+#guide .program .menu_hover2 {
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    line-height: 1.6;
+    display: none;
+}
+
+#guide .program .menu3 {
+    width: 340px;
+    height: 230px;
+    position: absolute;
+    left: 0;
+    top: 440px;
+}
+
+#guide .program .menu3:hover .menu_hover3 {
+    display: block;
+}
+
+#guide .program .menu3 img {
+    display: block;
+}
+
+#guide .program .menu_hover3 {
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    line-height: 1.6;
+    display: none;
+}
+
+#guide .program .menu4 {
+    width: 340px;
+    height: 230px;
+    position: absolute;
+    left: 340px;
+    top: 440px;
+}
+
+#guide .program .menu4:hover .menu_hover4 {
+    display: block;
+}
+
+#guide .program .menu4 img {
+    display: block;
+}
+
+#guide .program .menu_hover4 {
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    line-height: 1.6;
+    display: none;
+}
+
+#guide .program .menu5 {
+    width: 340px;
+    height: 230px;
+    position: absolute;
+    left: 0;
+    top: 720px;
+}
+
+#guide .program .menu5:hover .menu_hover5 {
+    display: block;
+}
+
+#guide .program .menu5 img {
+    display: block;
+}
+
+#guide .program .menu_hover5 {
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    line-height: 1.6;
+    display: none;
+}
+
+#guide .program .menu6 {
+    width: 340px;
+    height: 230px;
+    position: absolute;
+    left: 340px;
+    top: 720px;
+}
+
+#guide .program .menu6:hover .menu_hover6 {
+    display: block;
+}
+
+#guide .program .menu6 img {
+    display: block;
+}
+
+#guide .program .menu_hover6 {
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    line-height: 1.6;
+    display: none;
+}
+
+
+#guide .paging {
+    text-align: center;
+    margin-top: 830px;
+}
+
+#guide .paging li {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 5px 15px;
+    transition: background 0.5s;
+}
+
+#guide .paging li:nth-child(1) {
+    border: 1px solid #707070;
+    background: #e5e5e5;
+    cursor: pointer;
+}
+
+#guide .paging li:nth-child(7) {
+    border: 1px solid #707070;
+    background: #a5a5a5;
+    cursor: pointer;
+}
+
+#guide .paging li:hover {
+    border: 1px solid #000;
+    background: #404041;
+}
+
+#guide .paging li:hover a {
+    color: #fff;
+}
+
+#guide .paging li.on {
+    background: #404041;
+    border: 1px solid #000;
+}
+
+#guide .paging li.on a {
+    color: #fff;
+}
+
+/* 게시판 */
+#notice {
+    width: 1200px;
+    margin: 150px auto;
+}
+
+#notice .cs_search {
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+#notice select {
+    width: 80px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+
+#notice input[type="text"] {
+    width: 150px;
+    height: 18px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#notice input[type="submit"] {
+    height: 30px;
+    padding: 0 20px;
+    background: #333;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+#notice table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#notice table th {
+    border-top: 3px solid #ccc;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+#notice table td {
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+#notice table tr td:nth-child(2) {
+    text-align: left;
+}
+
+#notice table a {
+    transition: color 0.3s;
+}
+
+#notice table a:hover {
+    color: #F0A544;
+}
+
+#notice .paging {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#notice .paging li {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 5px 15px;
+    transition: background 0.5s;
+}
+
+#notice .paging li:nth-child(1) {
+    border: 1px solid #707070;
+    background: #a5a5a5;
+    cursor: pointer;
+}
+
+#notice .paging li:nth-child(2) {
+    border: 1px solid #707070;
+    background: #bdaaaa;
+    cursor: pointer;
+}
+
+#notice .paging li:nth-child(8) {
+    border: 1px solid #707070;
+    background: #bdaaaa;
+    cursor: pointer;
+}
+
+#notice .paging li:nth-child(9) {
+    border: 1px solid #707070;
+    background: #a5a5a5;
+    cursor: pointer;
+}
+
+#notice .paging li:hover {
+    border: 1px solid #000;
+    background: #404041;
+}
+
+#notice .paging li:hover a {
+    color: #fff;
+}
+
+#notice .paging li.on {
+    background: #404041;
+    border: 1px solid #000;
+}
+
+#notice .paging li.on a {
+    color: #fff;
+}
+
+
+
+
+
+/* 탑버튼 */
+#gotop {
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    opacity: 0.5;
+    transition: opacity 0.5s;
+    z-index: 99;
+}
+
+#gotop:hover {
+    opacity: 1;
+}
+
+
+
+/* 푸터 */
+#footer {
+    height: 250px;
+    background: #404041;
+    box-sizing: border-box;
+}
+
+#footer .footer_inner {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+#footer .footer_inner .copyright {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    top: 191px;
+}
+
+.footer_inner .sns_txt {
+    color: #fff;
+    position: absolute;
+    top: 37px;
+    right: 0;
+}
+
+.footer_inner .sns {
+    position: absolute;
+    right: 0;
+    top: 71px;
+}
+
+.footer_inner .sns li {
+    float: left;
+    padding-left: 20px;
+}
+
+.footer_inner .sns li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    transition: opacity 0.3s;
+}
+
+.footer_inner .sns li:nth-child(1) a {
+    background: url(../images/common/main_icon_twitter.png) no-repeat center center;
+    opacity: 0.5;
+}
+
+.footer_inner .sns li:nth-child(2) a {
+    background: url(../images/common/main_icon_facebook.png) no-repeat center center;
+    opacity: 0.5;
+}
+
+.footer_inner .sns li:nth-child(3) a {
+    background: url(../images/common/main_icon_instagram.png) no-repeat center center;
+    opacity: 0.5;
+}
+
+.footer_inner .sns li:nth-child(4) a {
+    background: url(../images/common/main_icon_youtube.png) no-repeat center center;
+    opacity: 0.5;
+}
+
+.footer_inner .sns li a:hover {
+    opacity: 1;
+}
+
+.footer_inner .address {
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    text-align: left;
+    font-style: normal;
+    font-size: 14px;
+    color: #fff;
+    width: 500px;
+}
+
+.footer_inner .address a {
+    color: #fff;
+}
+
+.footer_inner .address a:hover {
+    text-decoration: underline;
+}
+
+.footer_inner .address .txt_number {
+    position: absolute;
+    left: 155px;
+    top: 61px;
+}
+
+.footer_inner .address p:nth-child(1) .txt_bold {
+    padding-right: 30px;
+}
+
+.footer_inner .address p:nth-child(2) .txt_bold {
+    padding-right: 10px;
+}
+
+.footer_inner .address p:nth-child(3) .txt_bold {
+    padding-right: 10px;
+}
+
+.footer_inner .address p:nth-child(4) .txt_bold {
+    padding-right: 10px;
+}
+
+.footer_inner .address p:nth-child(1) {
+    padding-bottom: 35px;
+}
+
+.footer_inner .address p:nth-child(2) {
+    padding-bottom: 15px;
+}
+
+.footer_inner .address p .txt_ceo {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.footer_inner .footer_call {
+    position: absolute;
+    right: 0px;
+    top: 121px;
+    text-align: right;
+    color: #fff;
+}
+
+.footer_inner .footer_call p:nth-child(1) {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.footer_inner .footer_call p:nth-child(2) {
+    font-size: 30px;
+    line-height: 1.23;
+    padding-top: 10px;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
