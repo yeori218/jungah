@@ -26,6 +26,12 @@ body {
     color: #000;
 }
 
+#wrap {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 /* 헤더 */
 #header {
     height: 140px;
@@ -506,22 +512,24 @@ body {
 /* 리뷰 */
 #review {
     height: 350px;
-    position: relative;
-    margin-bottom: 180px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1920px;
 }
 
 #review .review_img {
-    position: absolute;
-    left: 0;
-    top: 0;
     width: 50%;
     height: 350px;
     z-index: 9;
 }
 
+#review .review_img img {
+    width: 100%;
+    height: 350px;
+}
+
 #review .review_desc {
-    position: absolute;
-    right: 0;
     background: #404041;
     width: 50%;
     height: 350px;
@@ -531,7 +539,7 @@ body {
 
 #review .review_desc p {
     color: #fff;
-    font-size: 34px;
+    font-size: 2rem;
     line-height: 1.5;
 }
 
@@ -549,7 +557,7 @@ body {
     border-radius: 50px;
     font-size: 22px;
     padding-top: 17px;
-    margin-top: 40px;
+    margin-top: 5vh;
     transition: background 0.5s;
 }
 
@@ -560,11 +568,14 @@ body {
 
 
 /* 갤러리 */
+#gallery {
+    margin: 180px 0;
+}
+
 #gallery::after {
     content: "";
     display: block;
     clear: both;
-    margin-bottom: 180px;
 }
 
 #gallery h2 {
@@ -805,8 +816,8 @@ body {
 
 #gotop {
     position: fixed;
-    right: 30px;
-    bottom: 20px;
+    right: 2%;
+    bottom: 5%;
     opacity: 0.5;
     transition: opacity 0.5s;
     z-index: 99;

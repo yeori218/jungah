@@ -40,6 +40,12 @@ body {
     color: #000;
 }
 
+#wrap {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 /* 헤더 */
 #header {
     height: 140px;
@@ -674,6 +680,8 @@ body {
     background: rgba(85, 86, 119, 0.2);
     box-sizing: border-box;
     padding: 100px 0 125px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 #principle h3 {
@@ -691,7 +699,7 @@ body {
 }
 
 #principle .principle_inner {
-    width: 1420px;
+    max-width: 1420px;
     height: 270px;
     margin: 0 auto;
     background: url(../images/sub3/sub3_img_stit.jpg) no-repeat left center #fdfaf4;
@@ -952,6 +960,8 @@ body {
     height: 1380px;
     box-sizing: border-box;
     padding: 150px 0;
+    margin: 0 auto;
+    width: 1420px;
 }
 
 #herbal .herbal_contents {
